@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "739106",
+      "name": "电话",
+      "font_class": "dianhua",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "6149936",
+      "name": "向上",
+      "font_class": "xiangshang",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "43547832",
+      "name": "气泡(省略号)",
+      "font_class": "a-qipaoshenglvehao",
+      "unicode": "e75c",
+      "unicode_decimal": 59228
+    }
+  ]
+}
