@@ -1,0 +1,280 @@
+        * { 
+            margin: 0; 
+            padding: 0; 
+            box-sizing: border-box; 
+            font-family: Arial; 
+            }
+            header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background: #F8F8F8;
+            border-bottom: 1px solid #eee;
+            }
+            .logo {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            
+            }
+            .logo img { 
+
+            height: 40px; 
+            }
+            nav ul {
+            display: flex;
+            list-style: none;
+            display: flex;
+            gap: 30px; 
+            margin-right: auto; 
+            }
+            nav a { 
+            text-decoration: none; 
+            color: #333;
+            }
+            nav a.active {
+            background: #7b93c0; 
+            color: #fff;
+            padding: 10px 20px; 
+        }
+        nav a:not(.active):hover {
+            color: #7b93c0;
+            padding: 10px 20px; 
+
+        }
+        .en-ch {
+            display: flex;
+            gap: 8px;
+            float: right;
+            }
+        .lang-btn {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            border: none;
+            color: #fff;
+            font-size: 12px;
+            cursor: pointer;
+        }
+        .en {
+            background: #ff0000; 
+        }
+        .ch {
+            background: #cccccc; 
+            color: #333;
+        }
+       .body {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #E7E7E7; 
+            padding: 50px 80px;
+            
+        }
+        .text {
+            width: 45%; 
+            text-align: left;
+        }
+        .text h1 {
+            font-size: 22px;
+            color: #333;
+            font-weight: 400;
+            margin-bottom: 8px;
+        }
+        .text h2 {
+            font-size: 20px;
+            color: #3366cc; 
+            font-weight: 600;
+            margin-bottom: 18px;
+        }
+        .text p {
+            font-size: 14px;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+        .detail-btn {
+            background: #3366cc;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 14px;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 8px; 
+            cursor: pointer;
+        }
+        .detail-btn:hover {
+            background: #254a99;
+        }
+        .text-img {
+            width: 50%; 
+            text-align: left; 
+        }
+        .dots {
+            display: flex;
+            gap: 8px; 
+            padding: 10px 0;
+            justify-content: center; 
+        }
+        .dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%; 
+            background-color: #ccc;
+        }
+        .dot.active {
+            background-color: #4CAF50; 
+        }
+
+        .product {
+            display: flex;
+            gap: 20px; 
+            padding: 20px;
+            justify-content: center; 
+
+
+        }
+  
+        .product-card {
+            text-align: center;
+            width: 180px;
+        }
+        .product-img {
+            background-color: #E7E7E7; 
+            padding: 20px;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .product-img img {
+            max-height: 100%;
+            max-width: 100%;
+        }
+ 
+        .product-label {
+            padding: 8px 0;
+            color: white;
+            font-weight: bold;
+        }
+
+        .scooter .product-label { 
+            background-color: #4a54a6; 
+        }
+        .rehab .product-label { 
+            background-color: #666; 
+        }
+        .bicycle .product-label { 
+            background-color: #666; 
+        }
+        .electric .product-label {
+             background-color: #666; 
+            }
+        .fitting .product-label { 
+            background-color: #666; 
+        }
+   
+        .footer {
+            background-color: #4A4A4A;
+            color: #FFFFFF;
+            padding: 20px 0;
+            position: relative;
+        }
+
+        .footer1 {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+        }
+ 
+        
+        .footer1::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 80px; 
+            width: 1px;
+            background-color: #888;
+        }
+        .footer1::before {
+            left: 15%;
+        }
+        .footer1::after {
+            right: 15%;
+        }
+
+        .footer {
+            flex: 1;
+            padding: 0 20px;
+        }
+        .footer h3 {
+            font-size: 16px;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+        .footer ul {
+            list-style: none;
+            font-size: 14px;
+            line-height: 1.8;
+        }
+
+        .footer2 {
+            flex: 1.2;
+            padding: 0 20px;
+        }
+        .footer2 h3 {
+            font-size: 16px;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+        .footer3 {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 8px;
+        }
+
+        .footer3 .phone {
+            font-size: 14px;
+        }
+        .footer3 .phone p {
+            font-size: 18px;
+            display: block;
+        }
+        .footer4 {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 8px;
+        }
+        .footer4 .service {
+            font-size: 14px;
+        }
+        .footer4 .service p {
+            display: block;
+        }
+
+        .back-to-top {
+            width: 36px;
+            height: 36px;
+            background-color: #666;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px;
+            margin-top: 10px;
+        }
+    
+        .footer5 {
+            max-width: 1200px;
+            margin: 20px auto 0;
+            padding-top: 15px;
+            border-top: 1px solid #666;
+            font-size: 12px;
+            color: #CCCCCC;
+        }
